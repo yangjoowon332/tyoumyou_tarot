@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+@import url(font.css);
+
+.centerbox {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+body {
+  font-family: "HeirofLightRegular" "HeirofLightBold";
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.section_box_sub {
+  height: auto;
+  min-height: 100vh;
+}
+
+#section1 {}
+#section1 .about_i {position: relative;display: flex;justify-content: center;align-items: center;}
+#section1 .sky_bg {
+  position: absolute;
+  left: 0;margin-top: 48%;
+}
+#section1 .sky_bg img {width: 100%;}
+
+#section1 .about_i .sky_star {top: 50%;position: absolute;}
+#section1 .about_i .sky_star img {z-index: 1;}
+#section1 .centerbox .about_box {display: flex;justify-content: center;align-items: center;margin-top: 200px;font-family: "HeirofLightRegular";}
+#section1 .centerbox .about_box p {text-align: center;color: #fff;font-size: 24px;line-height: 2.5;}
+
+
+#section2{}
+#section2 .logo_box {display: flex;justify-content: center;align-items: center;margin-top: 500px;}
+#section2 .logo_box img{z-index: 2;}
+
+#section2 .centerbox .tr_title{display: flex;justify-content: center;align-items: center;margin-top: 50px;}
+
+#section2 .centerbox .tr_title h2 {color: #000000;margin: 0 auto 28px; padding: 10px 22px;font-size: 40px;font-family: 'Pyeongchang-Peace';}
+
+#section2 .centerbox .tarot_info{display: flex;justify-content: center;align-items: center;margin-top: 30px;} 
+
+#section2 .centerbox .tarot_info .tr_gride {display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));gap: 22px 28px;} 
+@media (max-width: 768px) {
+  .tf-grid { grid-template-columns: 1fr;}
+}
+
+#section2 .centerbox .tarot_info .tr_gride .tr_card{
+  background:#53495E; border-radius: 22px;width:307px;height: 244px;
+  margin: 0 0 10px;line-height: 1.7;color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#section2 .centerbox .tarot_info .tr_gride .tr_card h3 {font-family: 'Pretendard-SemiBold';
+ font-size: 24px;color: #E7D899;
+}
+
+#section2 .centerbox .tarot_info .tr_gride .tr_card p {font-size: 16px;margin-top: 40px;font-family: 'Pretendard-Regular';}
+
+#section3 {margin-top: 100px;}
+#section3 .tr_title {display: flex;justify-content: center;align-items: center;}
+#section3 .tr_title h2 {font-size: 40px;font-family: 'Pyeongchang-Peace';}
+
+#section3 .tarot_info2 {margin-top: 50px;display: flex;justify-content: center;align-items: center;}
+#section3 .tarot_info2 .tr_gride {display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));  gap: 40px 150px;} 
+@media (max-width: 768px) {
+  .tf-grid { grid-template-columns: 1fr;}
+}
+
+#section3 .tarot_info2 .tr_gride .tr_card {}
+#section3 .tarot_info2 .tr_gride .tr_card .infoimg {display: flex;justify-content: center;align-items: center;}
+#section3 .tarot_info2 .tr_gride .tr_card img {margin-bottom: 20px;width: 150px;}
+#section3 .tarot_info2 .tr_gride .tr_card h3 {display: flex;justify-content: center;align-items: center;font-size: 20px;font-family: 'Pyeongchang-Peace';  font-weight: 300;}
+#section3 .tarot_info2 .tr_gride .tr_card p {text-align: center;font-size: 12px;font-family: 'Pyeongchang-Peace';}
+
+#section4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+  margin: 0;
+  padding: 0;
+}
+
+#section4 .centerbox {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#section4 .comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#section4 .comment p {
+  font-size: 35px;
+  font-family: 'Pyeongchang-Peace';
+  color: #fff;
+  text-align: center;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#section4 .bg_bottom {
+  position: absolute;
+  left: 0;
+  bottom: -150px;
+  width: 100%;
+  z-index: 1;
+
+}
+
+#section4 .bg_bottom img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#section4 .star_bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+#section4 .star_bottom img {
+  width: 100px;
+  height: auto;
+}
+
+#section4 .text_bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#section4 .text_bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}

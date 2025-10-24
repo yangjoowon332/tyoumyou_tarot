@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+@import url(font.css);
+
+.centerbox {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+body {
+  font-family: "HeirofLightRegular" "HeirofLightBold";
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 10px;
+}
+
+.section_channl {height: 5451px;}
+
+#section1 {}
+#section1 .centerbox {}
+#section1 .centerbox .logo_box {display: flex;justify-content: center;align-items: center;margin-top: 100px;position: relative;}
+#section1 .centerbox .logo_box img {position: absolute;top: 100px;z-index: 2;}
+#section1 .centerbox .logo_bg {display: flex;justify-content: center;align-items: center;margin-top: 100px;}
+#section1 .centerbox .logo_bg img {}
+
+
+#section1 .centerbox .tr_title {display: flex;justify-content: center;align-items: center;}
+#section1 .centerbox .tr_title h2 {color: #000000;margin: 0 auto 28px; padding: 10px 22px;font-size: 40px;font-family: 'Pyeongchang-Peace';}
+
+#section1 .centerbox .tarot_info {}
+#section1 .centerbox .tarot_info .tr_gride {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  justify-items: center;
+  margin: 40px auto;
+  max-width: 700px;
+}
+#section1 .centerbox .tarot_info .tr_gride .tr_card {
+     width: 150px;
+  aspect-ratio: 1/1;
+  background: #fff;
+  border: 3px solid #5a3b77;
+  border-radius: 40px;
+  padding: 10px 10px;
+  box-shadow:6px 10px 0 0 #7b6c8a,  0 2px 8px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#section1 .centerbox .tarot_info .tr_gride .tr_card h3 {display: flex;justify-content: center;align-items: center;margin-top: 20px;margin-bottom: 20px;font-size: 20px;font-family: 'Pyeongchang-Peace';}
+#section1 .centerbox .tarot_info .tr_gride .tr_card .card_img {display: flex;justify-content: center;align-items: center;}
+#section1 .centerbox .tarot_info .tr_gride .tr_card img {height:100px;}
+
+#section2 {margin-top: 100px;}
+#section2 .centerbox .tr_title {display: flex;justify-content: center;align-items: center;background:#0C142C;border-radius: 50px;width: 1376px;height: 100px;}
+#section2 .centerbox .tr_title h2 {color: #ffffff;font-size: 40px;display: flex;align-items: center;font-family: 'Pyeongchang-Peace';}
+
+#section2 .centerbox .tarot_money {position: relative;}
+
+#section2 .centerbox .tarot_money .money_menu1 .menu1 {margin-top: 100px;}
+#section2 .centerbox .tarot_money .money_menu1 .menu1 h2 {display: flex;justify-content: center;align-items: center;font-size: 25px;margin-bottom: 20px;font-family: 'Pyeongchang-Peace';}
+#section2 .centerbox .tarot_money .money_menu1 .menu1 p {font-size: 13px;text-align: center;display: flex;justify-content: center;align-items: center;margin-bottom: 30px;font-family: 'Pretendard-Regular';}
+
+#section2 .centerbox .tarot_money .money_menu1 .menu1_img {display: flex;justify-content: center;align-items: center;}
+#section2 .centerbox .tarot_money .money_menu1 .menu1_img img {width: 50%;}
+
+#section2 .centerbox .tarot_money .money_menu1 .explanation {background: #919BB9;width: 600px;height: 450px;border-radius: 50px;position: absolute;left: 600px;top: 550px;}
+#section2 .centerbox .tarot_money .money_menu1 .explanation ul {padding: 40px 40px;} 
+#section2 .centerbox .tarot_money .money_menu1 .explanation ul li {display: block;line-height: 2.1;color: #fff;} 
+#section2 .centerbox .tarot_money .money_menu1 .explanation ul li h4 {display: flex;align-items: start;font-size: 18px;font-family: 'Pretendard-Regular';} 
+#section2 .centerbox .tarot_money .money_menu1 .explanation ul li p {display: flex;align-items: start;font-size: 13px;list-style-type: disc !important;list-style-position: outside;margin-left: 1.5em;  padding-left: 0.5em;display: list-item !important;font-family: 'Pretendard-Regular';}
+
+
+#section2 .centerbox .tarot_money2 {position: relative;}
+
+#section2 .centerbox .tarot_money2 .money_menu2 .menu2 {margin-top: 500px;}
+#section2 .centerbox .tarot_money2 .money_menu2 .menu2 h2 {display: flex;justify-content: center;align-items: center;font-size: 25px;margin-bottom: 20px;font-family: 'Pyeongchang-Peace';}
+#section2 .centerbox .tarot_money2 .money_menu2 .menu2 p {font-size: 13px;text-align: center;display: flex;justify-content: center;align-items: center;margin-bottom: 30px;font-family: 'Pretendard-Regular';}
+
+#section2 .centerbox .tarot_money2 .money_menu2 .menu2_img {display: flex;justify-content: center;align-items: center;}
+#section2 .centerbox .tarot_money2 .money_menu2 .menu2_img img {width: 50%;}
+
+#section2 .centerbox .tarot_money2 .money_menu2 .explanation2 {background: #919BB9;width: 600px;height: 650px;border-radius: 50px;position: absolute;left: 600px;top: 550px;}
+#section2 .centerbox .tarot_money2 .money_menu2 .explanation2 ul {padding: 40px 40px;} 
+#section2 .centerbox .tarot_money2 .money_menu2 .explanation2 ul li {display: block;line-height: 2.2;color: #fff;} 
+#section2 .centerbox .tarot_money2 .money_menu2 .explanation2 ul li h4 {display: flex;align-items: start;font-size: 18px;font-family: 'Pretendard-Regular';} 
+#section2 .centerbox .tarot_money2 .money_menu2 .explanation2 ul li p {display: flex;align-items: start;font-size: 13px;list-style-type: disc !important;list-style-position: outside;margin-left: 1.5em;  padding-left: 0.5em;display: list-item !important;font-family: 'Pretendard-Regular'; }
+
+
+#section3 {margin-top: 800px;}
+#section3 .centerbox {margin: 0 auto;width: min(1376px, 92%);display: flex;
+  flex-direction: column;
+  align-items: center; gap: 32px;}
+#section3 .centerbox .tr_title {display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0C142C;
+  border-radius: 50px;width: 100%; height: 100px;font-family: 'Pyeongchang-Peace';}
+#section3 .centerbox .tr_title h2 {color: #fff;
+  font-size: 40px;
+  display: flex;
+  align-items: center;}
+
+#section3 .centerbox .tarot_caution {background: #0C142C;
+  width: 900px;
+  height: 800px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;margin: 0 auto;z-index: 2;margin-top: 50px;}
+#section3 .centerbox .tarot_caution .explanation3 {color: #fff;
+  padding: 20px;text-align: center;}
+#section3 .centerbox .tarot_caution .explanation3 .explana1 {}
+#section3 .centerbox .tarot_caution .explanation3 .explana1 h4 {margin-bottom: 10px;font-size: 17px;font-family: 'Pretendard-Regular';color: #E7D899;}
+#section3 .centerbox .tarot_caution .explanation3 .explana1 p {margin-bottom: 30px;font-size: 14px;font-family: 'Pretendard-Regular';}
+
+
+#section3 .centerbox .tarot_caution .explanation3 .explana2 {}
+#section3 .centerbox .tarot_caution .explanation3 .explana2 h4 {margin-bottom: 10px;font-size: 17px;font-family: 'Pretendard-Regular';color: #E7D899;}
+#section3 .centerbox .tarot_caution .explanation3 .explana2 p {margin-bottom: 30px;font-size: 14px;font-family: 'Pretendard-Regular';}
+
+#section3 .centerbox .tarot_caution .explanation3 .explana3 {}
+#section3 .centerbox .tarot_caution .explanation3 .explana3 h4 {margin-bottom: 30px;font-size: 17px;font-family: 'Pretendard-Regular';color: #E7D899;}
+
+
+
+#section3 .centerbox .tarot_caution .explanation3 .explana4 {}
+#section3 .centerbox .tarot_caution .explanation3 .explana4 h4 {margin-bottom: 10px;font-size: 17px;font-family: 'Pretendard-Regular';color: #E7D899;}
+#section3 .centerbox .tarot_caution .explanation3 .explana4 p {margin-bottom: 30px;font-size: 14px;font-family: 'Pretendard-Regular';}
+
+#section3 .centerbox .tarot_caution .explanation3 .explana5 {}
+#section3 .centerbox .tarot_caution .explanation3 .explana5 h4 {margin-bottom: 10px;font-size: 17px;font-family: 'Pretendard-Regular';color: #E7D899;}
+#section3 .centerbox .tarot_caution .explanation3 .explana5 p {margin-bottom: 30px;font-size: 14px;font-family: 'Pretendard-Regular';}
+
+#section3 .centerbox .tarot_caution .explanation3 .explana6 {}
+#section3 .centerbox .tarot_caution .explanation3 .explana6 h4 {margin-bottom: 10px;font-size: 17px;font-family: 'Pretendard-Regular';color: #E7D899;}
+#section3 .centerbox .tarot_caution .explanation3 .explana6 p {margin-bottom: 30px;font-size: 14px;font-family: 'Pretendard-Regular';}
+
+#section3 .centerbox .tarot_caution .explanation3 .explana7 {}
+#section3 .centerbox .tarot_caution .explanation3 .explana7 h4 {margin-bottom: 10px;font-size: 17px;font-family: 'Pretendard-Regular';color: #E7D899;}
+#section3 .centerbox .tarot_caution .explanation3 .explana7 p {margin-bottom: 20px;font-size: 14px;font-family: 'Pretendard-Regular';}
+
+#section3 .centerbox .ment_tarot {font-size: 38px;margin-top: 100px;position: relative;z-index: 1;}
+#section3 .centerbox .ment_tarot p {color: #fff;font-family: 'Pyeongchang-Peace';}
+
+#section3 .centerbox .ment_bg { position: absolute;
+ top:-400px;
+  padding: 20px;
+  border-radius: 800px;}
+
+  #section3 .centerbox .star_bottom {position: absolute;margin-top: 60%;}
