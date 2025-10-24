@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제목</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" type="image/x-icon"
+        href="/assets/favicon-2d44604f2ed176114545f95b8140098991d9c658536f61500c6a2b54e8ce5083.ico" />
+    <link rel="icon" type="image/x-icon"
+        href="/assets/favicon-2d44604f2ed176114545f95b8140098991d9c658536f61500c6a2b54e8ce5083.ico" />
+</head>
+
+<body>
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+    <script src="script/lang.js"></script>
+
+
+    <header>
+        <div class="centerbox">
+
+            <h1><a href="index.html"><img src="images/Asset 23.png" alt=""></a></h1>
+
+            <nav class="pc_nav pc">
+                <ul class="gnb">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about_me.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="channl.html">Consultation</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="lang-switch pc" role="group" aria-label="Language switcher">
+                <button type="button" data-lang="ko" aria-pressed="true">KR</button>
+                <button type="button" data-lang="ja" aria-pressed="false">JP</button>
+            </div>
+            <div class="hamburger mo">
+                <span></span>
+            </div>
+            <div class="mo_wrap mo">
+                <div class="mo_navbox">
+                    <div class="mo_nav">
+                        <ul class="gnb">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about_me.html">About Me</a>
+                            </li>
+                            <li>
+                                <a href="channl.html">Consultation</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="visual swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/visual_1.png" alt="">
+
+                <div class="textbox">
+                    <strong>쵸묘타로와 함께하는
+                        하루의 리딩</strong>
+                    <p>오늘, 당신을 위한 한 장의 메시지</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/visual_2.png" alt="">
+
+                <div class="textbox">
+                    <strong>쵸묘타로 타로 상담,<br>
+                        삶의 힌트를 만나는 시간</strong>
+                    <p>별과 카드가 전하는 내일의 길잡이</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="images/visual_3.png" alt="">
+
+                <div class="textbox">
+                    <strong>쵸묘타로, 당신만의 이야기를<br>
+                        카드로 풀어드립니다</strong>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 타로상담 문의 섹션 -->
+    <section class="contact-section">
+        <div class="centerbox">
+            <div class="contact-header">
+                <span><img src="images/span_img.png" alt=""></span>
+                <h2 data-i18n-key="contactTitle">타로상담 문의</h2>
+                <span><img src="images/span_img.png" alt=""></span>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3 data-i18n-key="consultationInfo">상담 안내</h3>
+                        <p data-i18n-key="consultationInfoDesc">쵸묘타로와 함께하는 특별한 타로 상담 시간</p>
+                        <ul>
+                            <li>• 1:1 개인 상담</li>
+                            <li>• 실시간 카드 리딩</li>
+                            <li>• 맞춤형 조언 제공</li>
+                            <li>• 비밀보장</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3 data-i18n-key="consultationAreas">상담 분야</h3>
+                        <div class="consultation-areas">
+                            <div class="area-item">
+                                <img src="images/section2_collection_icon1.png" alt="">
+                                <span>연애운</span>
+                            </div>
+                            <div class="area-item">
+                                <img src="images/section2_collection_icon2.png" alt="">
+                                <span>금전운</span>
+                            </div>
+                            <div class="area-item">
+                                <img src="images/section2_collection_icon3.png" alt="">
+                                <span>인간관계</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3 data-i18n-key="consultationForm">상담 문의하기</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name" data-i18n-key="name">이름</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" data-i18n-key="email">이메일</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" data-i18n-key="phone">연락처</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="consultation-type" data-i18n-key="consultationType">상담 분야</label>
+                            <select id="consultation-type" name="consultation-type" required>
+                                <option value="" data-i18n-key="consultationTypePlaceholder">선택해주세요</option>
+                                <option value="love" data-i18n-key="love">연애운</option>
+                                <option value="money" data-i18n-key="money">금전운</option>
+                                <option value="relationship" data-i18n-key="relationship">인간관계</option>
+                                <option value="career" data-i18n-key="career">진로</option>
+                                <option value="general" data-i18n-key="general">일반상담</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" data-i18n-key="message">상담 내용</label>
+                            <textarea id="message" name="message" rows="5" placeholder="궁금한 점이나 상담하고 싶은 내용을 자유롭게 작성해주세요." data-i18n-key="messagePlaceholder" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn" data-i18n-key="submit">문의하기</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="contact-methods">
+                <div class="method-card">
+                    <h4 data-i18n-key="crepeConsultation">크레페 1:1 상담</h4>
+                    <p data-i18n-key="crepeDesc">실시간 화상 상담</p>
+                    <a href="https://crepe.cm/@tarot_tyoumyou" class="method-btn" data-i18n-key="crepeBtn">상담 예약</a>
+                </div>
+                
+                <div class="method-card">
+                    <h4 data-i18n-key="emailConsultation">이메일 상담</h4>
+                    <p>tyoumyoutarot@gmail.com</p>
+                    <a href="mailto:tyoumyoutarot@gmail.com" class="method-btn" data-i18n-key="emailBtn">이메일 보내기</a>
+                </div>
+                
+                <div class="method-card">
+                    <h4 data-i18n-key="instagramConsultation">인스타그램</h4>
+                    <p data-i18n-key="instagramDesc">매일 아침 운세</p>
+                    <a href="https://www.instagram.com/tyoumyou_tarot" class="method-btn" data-i18n-key="instagramBtn">운세 보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="centerbox">
+            <div class="logo"><img src="images/Asset 25.png" alt=""></div>
+            <div class="content">
+                <p>대표 : 민시은</p>
+                    <p>사업자등록번호 : 000-00-00000</p>
+                    <p>E-mail : tyoumyoutarot@gmail.com</p>
+            </div>
+          <div class="sns">
+                <a href="https://www.instagram.com/tyoumyou_tarot?igsh=Z240anlwZTd1ejVu&utm_source=qr" class="instagram"><img src="images/footer_icon2.png" alt=""></a>
+                <a href="https://www.youtube.com/@tarot_tyoumyou" class="youtube"><img src="images/footer_icon3.png" alt=""></a>
+               
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".visual", {
+            spaceBetween: 30,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            effect: "fade",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        var swiper = new Swiper(".part1_slidebox", {
+            loop: true,
+            navigation: {
+                nextEl: ".btn_left",
+                prevEl: ".btn_right",
+            },
+
+            slidesPerView: 1,   // 기본 (모바일)
+            spaceBetween: 28,
+
+            // 반응형 옵션
+            breakpoints: {
+                640: {  // 화면이 640px 이상일 때
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                },
+                1024: { // 화면이 1024px 이상일 때
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1440: { // 화면이 1440px 이상일 때
+                    slidesPerView: 4,
+                    spaceBetween: 28,
+                },
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+        });
+
+    </script>
+
+    <!-- Contact Form JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('.contact-form form');
+            const submitBtn = document.querySelector('.submit-btn');
+            
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // 폼 데이터 수집
+                    const formData = new FormData(form);
+                    const data = {
+                        name: formData.get('name'),
+                        email: formData.get('email'),
+                        phone: formData.get('phone'),
+                        consultationType: formData.get('consultation-type'),
+                        message: formData.get('message')
+                    };
+                    
+                    // 버튼 비활성화 및 로딩 상태
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = '전송 중...';
+                    
+                    // 실제 구현에서는 서버로 데이터 전송
+                    setTimeout(() => {
+                        alert('문의가 성공적으로 전송되었습니다!\n빠른 시일 내에 연락드리겠습니다.');
+                        form.reset();
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = '문의하기';
+                    }, 1500);
+                });
+            }
+            
+            // 폼 유효성 검사
+            const inputs = document.querySelectorAll('.contact-form input, .contact-form select, .contact-form textarea');
+            inputs.forEach(input => {
+                input.addEventListener('blur', function() {
+                    validateField(this);
+                });
+                
+                input.addEventListener('input', function() {
+                    if (this.classList.contains('error')) {
+                        validateField(this);
+                    }
+                });
+            });
+            
+            function validateField(field) {
+                const value = field.value.trim();
+                const fieldName = field.name;
+                let isValid = true;
+                let errorMessage = '';
+                
+                // 필수 필드 검사
+                if (field.hasAttribute('required') && !value) {
+                    isValid = false;
+                    errorMessage = '이 필드는 필수입니다.';
+                }
+                
+                // 이메일 유효성 검사
+                if (fieldName === 'email' && value) {
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(value)) {
+                        isValid = false;
+                        errorMessage = '올바른 이메일 주소를 입력해주세요.';
+                    }
+                }
+                
+                // 전화번호 유효성 검사
+                if (fieldName === 'phone' && value) {
+                    const phoneRegex = /^[0-9-+\s()]+$/;
+                    if (!phoneRegex.test(value)) {
+                        isValid = false;
+                        errorMessage = '올바른 전화번호를 입력해주세요.';
+                    }
+                }
+                
+                // 에러 상태 적용/제거
+                if (!isValid) {
+                    field.classList.add('error');
+                    showFieldError(field, errorMessage);
+                } else {
+                    field.classList.remove('error');
+                    hideFieldError(field);
+                }
+                
+                return isValid;
+            }
+            
+            function showFieldError(field, message) {
+                hideFieldError(field);
+                const errorDiv = document.createElement('div');
+                errorDiv.className = 'field-error';
+                errorDiv.textContent = message;
+                errorDiv.style.color = '#e74c3c';
+                errorDiv.style.fontSize = '1.2rem';
+                errorDiv.style.marginTop = '0.5rem';
+                field.parentNode.appendChild(errorDiv);
+            }
+            
+            function hideFieldError(field) {
+                const existingError = field.parentNode.querySelector('.field-error');
+                if (existingError) {
+                    existingError.remove();
+                }
+            }
+        });
+    </script>
+
+    <!-- Mobile Navigation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const moWrap = document.querySelector('.mo_wrap');
+            
+            if (hamburger && moWrap) {
+                hamburger.addEventListener('click', function() {
+                    moWrap.style.display = moWrap.style.display === 'block' ? 'none' : 'block';
+                });
+                
+                // 모바일 메뉴 외부 클릭 시 닫기
+                moWrap.addEventListener('click', function(e) {
+                    if (e.target === moWrap) {
+                        moWrap.style.display = 'none';
+                    }
+                });
+            }
+        });
+    </script>
+
+    <!-- Language Switcher -->
+    <script>
+        (function () {
+            // 한국어/일본어 레이블 사전
+            const dict = {
+                ko: { 
+                    home: '홈', 
+                    about: '소개', 
+                    consult: '상담', 
+                    contact: '연락처',
+                    contactTitle: '타로상담 문의',
+                    consultationInfo: '상담 안내',
+                    consultationInfoDesc: '쵸묘타로와 함께하는 특별한 타로 상담 시간',
+                    consultationAreas: '상담 분야',
+                    consultationForm: '상담 문의하기',
+                    name: '이름',
+                    email: '이메일',
+                    phone: '연락처',
+                    consultationType: '상담 분야',
+                    consultationTypePlaceholder: '선택해주세요',
+                    love: '연애운',
+                    money: '금전운',
+                    relationship: '인간관계',
+                    career: '진로',
+                    general: '일반상담',
+                    message: '상담 내용',
+                    messagePlaceholder: '궁금한 점이나 상담하고 싶은 내용을 자유롭게 작성해주세요.',
+                    submit: '문의하기',
+                    crepeConsultation: '크레페 1:1 상담',
+                    crepeDesc: '실시간 화상 상담',
+                    crepeBtn: '상담 예약',
+                    emailConsultation: '이메일 상담',
+                    emailBtn: '이메일 보내기',
+                    instagramConsultation: '인스타그램',
+                    instagramDesc: '매일 아침 운세',
+                    instagramBtn: '운세 보기'
+                },
+                ja: { 
+                    home: 'ホーム', 
+                    about: '自己紹介', 
+                    consult: '相談', 
+                    contact: 'お問い合わせ',
+                    contactTitle: 'タロット相談お問い合わせ',
+                    consultationInfo: '相談案内',
+                    consultationInfoDesc: 'チョミョタロットと一緒にする特別なタロット相談時間',
+                    consultationAreas: '相談分野',
+                    consultationForm: '相談お問い合わせ',
+                    name: 'お名前',
+                    email: 'メール',
+                    phone: '連絡先',
+                    consultationType: '相談分野',
+                    consultationTypePlaceholder: '選択してください',
+                    love: '恋愛運',
+                    money: '金運',
+                    relationship: '人間関係',
+                    career: '進路',
+                    general: '一般相談',
+                    message: '相談内容',
+                    messagePlaceholder: '気になる点や相談したい内容を自由に書いてください。',
+                    submit: 'お問い合わせ',
+                    crepeConsultation: 'クレープ1:1相談',
+                    crepeDesc: 'リアルタイム映像相談',
+                    crepeBtn: '相談予約',
+                    emailConsultation: 'メール相談',
+                    emailBtn: 'メール送信',
+                    instagramConsultation: 'インスタグラム',
+                    instagramDesc: '毎朝の運勢',
+                    instagramBtn: '運勢を見る'
+                }
+            };
+
+            const root = document.documentElement;
+            const saved = localStorage.getItem('lang') || 'ko';
+
+            function applyLang(lang) {
+                root.setAttribute('lang', lang);
+                localStorage.setItem('lang', lang);
+
+                // 텍스트 교체
+                document.querySelectorAll('[data-i18n-key]').forEach(el => {
+                    const key = el.getAttribute('data-i18n-key');
+                    if (dict[lang] && dict[lang][key]) {
+                        if (el.tagName === 'INPUT' && el.type === 'submit') {
+                            el.value = dict[lang][key];
+                        } else if (el.tagName === 'OPTION') {
+                            el.textContent = dict[lang][key];
+                        } else if (el.tagName === 'TEXTAREA') {
+                            el.placeholder = dict[lang][key];
+                        } else {
+                            el.textContent = dict[lang][key];
+                        }
+                    }
+                });
+
+                // textarea placeholder 번역
+                const textarea = document.querySelector('#message');
+                if (textarea && dict[lang] && dict[lang]['messagePlaceholder']) {
+                    textarea.placeholder = dict[lang]['messagePlaceholder'];
+                }
+                
+                // select 옵션 번역
+                const select = document.querySelector('#consultation-type');
+                if (select && dict[lang]) {
+                    const options = select.querySelectorAll('option');
+                    options.forEach(option => {
+                        const key = option.getAttribute('data-i18n-key');
+                        if (key && dict[lang][key]) {
+                            option.textContent = dict[lang][key];
+                        }
+                    });
+                }
+
+                // 스위처 상태 반영
+                document.querySelectorAll('.lang-switch button').forEach(btn => {
+                    btn.setAttribute('aria-pressed', btn.dataset.lang === lang ? 'true' : 'false');
+                });
+            }
+
+            // 초기 적용
+            applyLang(saved);
+
+            // 클릭 이벤트
+            document.addEventListener('click', (e) => {
+                const btn = e.target.closest('.lang-switch button');
+                if (!btn) return;
+                applyLang(btn.dataset.lang);
+            });
+        })();
+    </script>
+
+    <style>
+        .contact-form input.error,
+        .contact-form select.error,
+        .contact-form textarea.error {
+            border-color: #e74c3c;
+            box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.1);
+        }
+        
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    </style>
+
+</body>
+
+
+</html>
